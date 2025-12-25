@@ -15,10 +15,10 @@ This project is ideal for students, professionals, and anyone interested in buil
 ## Features
 - Abstract class `Ride` for all ride types
 - Encapsulated driver and vehicle details
-- Subclasses `BikeRide` and `CarRide` with fare calculation
+- Subclasses `BikeRide` and `CarRide` with dynamic, demand-aware fare calculation
 - Custom exception for invalid ride types
 - Input validation for distance and ride type
-- Currency formatting for global use
+- Currency formatting for global use and fare breakdown output
 - Modular structure for future business features
 - JUnit tests for reliability
 
@@ -26,19 +26,25 @@ This project is ideal for students, professionals, and anyone interested in buil
 Run the main class and follow the prompts:
 1. Enter ride type (`bike` or `car`)
 2. Enter distance in kilometers
+3. Rate current demand/traffic (1-5, press Enter to accept the smart default)
 
 Sample output:
 ```
 Welcome to Ride Sharing!
 
-Please select your ride type (bike or car): bike
-Enter distance to travel in kilometers: 5
+Please select your ride type (bike or car): car
+Enter distance to travel in kilometers: 10
+Rate the current demand/traffic (1-5, 1 = calm, 5 = peak) [press Enter for default 3]: 4
 
 --- Ride Details ---
-Driver: Amit Sharma
-Vehicle No: BK1234
-Distance: 5.00 km
-Fare: ₹50.00
+Driver: Priya Singh
+Vehicle No: CR5678
+Distance: 10.00 km
+Demand Level: 4 (surge 1.45x)
+Base Fare: ₹25.00
+Distance Fare: ₹145.00
+Booking Fee: ₹6.00
+Estimated Fare: ₹176.00
 Enjoy your ride!
 ```
 
