@@ -55,13 +55,13 @@ JUnit tests are included in `RideSharingSystemTest.java` and cover:
 - Edge cases and future extensibility
 
 ## Business Context & Evaluation Criteria
-- **Code Quality:** Clean, modular, and well-documented code
-- **Functionality:** Meets all specifications and handles errors gracefully
-- **Testing:** Comprehensive unit tests for all major components
-- **Originality:** Practical design, custom exception, and simulated data fetching
-- **Internationalization:** Ready for global deployment and business expansion
-- **Scalability:** Easily extendable for new features and business needs
-- **Documentation:** Clear instructions for users and developers
+- **Code Quality:** Clean, modular, and well-documented code.
+- **Functionality:** Meets all specifications and handles errors gracefully.
+- **Testing:** Comprehensive unit tests for all major components.
+- **Originality:** Practical design, custom exception, and simulated data fetching.
+- **Internationalization:** Ready for global deployment and business expansion.
+- **Scalability:** Easily extendable for new features and business needs.
+- **Documentation:** Clear instructions for users and developers.
 
 ## Author
 Kshitij Pal Singh Tomar
